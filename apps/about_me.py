@@ -27,7 +27,7 @@ def app():
             pdf_display = f'<embed src="data:application/pdf;base64,{base64_pdf}" width="700" height="1000" type="application/pdf">'
             st.markdown(pdf_display, unsafe_allow_html=True)
 
-        st.write(show_pdf("Faris CV.pdf"))
+        st.write(show_pdf("MyCV.pdf"))
 
 
     if st.checkbox("Show Grade"):
